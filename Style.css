@@ -1,0 +1,99 @@
+
+body {
+    background-color: #C0C0C0;
+	padding: 0px;
+	margin: 0px;
+}
+
+.button1{
+	color: black;
+	background-color: silver; 
+	border: 2px solid #fff;
+	
+}
+
+.button{
+	
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+h1 {
+    color: Black;
+    font-family: Comic Sans MS;
+}
+
+#heading{
+	padding: 10px;
+	 margin: 5px;
+	
+}
+
+p {
+    font-family: verdana;
+    font-size: 15px;
+	color: #9388C1;
+}
+
+img {
+    margin-right: 80px;
+    border-radius: 30px;
+    padding: 15px;
+    width: 500px;
+	height: 200px;
+}
+
+header{
+	
+       background: grey;
+       height: 70px;
+      
+}
+
+#left-nav{
+     float:left;
+	 padding: 10px;
+	 margin: 10px;
+}
+
+#right-nav{
+	float: right;
+	padding: 10px;
+	margin: 10px;
+	
+}
+
+ul li {
+	
+	list-style-type: none;
+	opacity: .8;
+}
+
+ul li a{
+	
+	text-decoration: none;
+	display: block;
+}
+
+ul li ul li {
+	
+	display: none;
+}
+
+ul li:hover ul li {
+	
+	display: block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+ 
